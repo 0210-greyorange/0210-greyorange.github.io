@@ -6,7 +6,7 @@
   <link href="http://greyorange.xyz/atom.xml" rel="self"/>
   
   <link href="http://greyorange.xyz/"/>
-  <updated>2021-08-06T13:07:01.720Z</updated>
+  <updated>2021-08-07T12:40:05.843Z</updated>
   <id>http://greyorange.xyz/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>LeetCode第一轮(更新ing)</title>
+    <link href="http://greyorange.xyz/LeetCode/LeetCode%E7%AC%AC%E4%B8%80%E8%BD%AE(%E6%9B%B4%E6%96%B0ing)/"/>
+    <id>http://greyorange.xyz/LeetCode/LeetCode%E7%AC%AC%E4%B8%80%E8%BD%AE(%E6%9B%B4%E6%96%B0ing)/</id>
+    <published>2021-08-07T12:39:29.000Z</published>
+    <updated>2021-08-07T12:40:05.843Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;记录了下自己用Java语言第一轮刷LeetCode的章节顺序，顺便会贴一些自己对每道题的思路与代码。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="LeetCode" scheme="http://greyorange.xyz/categories/LeetCode/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>「力扣」分类</title>
