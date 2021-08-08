@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://greyorange.xyz/uncategorized/Annotation/</loc>
+    <loc>http://greyorange.xyz/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/Annotation/</loc>
     
     <lastmod>2021-08-08</lastmod>
     
@@ -38,17 +38,17 @@
   </url>
 
   
+
+  
   <url>
-    <loc>http://greyorange.xyz/tags/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</loc>
+    <loc>http://greyorange.xyz/categories/LeetCode/</loc>
     <lastmod>2021-08-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
-
-  
   <url>
-    <loc>http://greyorange.xyz/categories/LeetCode/</loc>
+    <loc>http://greyorange.xyz/categories/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</loc>
     <lastmod>2021-08-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
