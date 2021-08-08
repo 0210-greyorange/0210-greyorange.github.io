@@ -6,7 +6,7 @@
   <link href="http://greyorange.xyz/atom.xml" rel="self"/>
   
   <link href="http://greyorange.xyz/"/>
-  <updated>2021-08-08T12:33:48.188Z</updated>
+  <updated>2021-08-08T12:43:31.570Z</updated>
   <id>http://greyorange.xyz/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>注解</title>
     <link href="http://greyorange.xyz/uncategorized/%E6%B3%A8%E8%A7%A3/"/>
     <id>http://greyorange.xyz/uncategorized/%E6%B3%A8%E8%A7%A3/</id>
-    <published>2021-08-08T12:29:40.000Z</published>
-    <updated>2021-08-08T12:33:48.188Z</updated>
+    <published>2021-08-08T12:41:10.000Z</published>
+    <updated>2021-08-08T12:43:31.570Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-什么是注解？&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#1-什么是注解？&quot;&gt;¶&lt;/a&gt;1.什么是注解？&lt;/h2&gt;
@@ -29,7 +29,7 @@
 &lt;h2 id=&quot;2-为什么要用注解？&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#2-为什么要用注解？&quot;&gt;¶&lt;/a&gt;2.为什么要用注解？&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;在JavaSE中，注解的使用目的比较简单，比如：标记过时的功能、忽略警告等。&lt;/p&gt;</summary>
+&lt;p&gt;在JavaSE中，注解的使用目的比较简单，比如：标记过时的功能、忽略警告等。&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</summary>
     
     
     
