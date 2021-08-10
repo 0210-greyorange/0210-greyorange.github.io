@@ -24,9 +24,12 @@
     <updated>2021-08-10T00:30:41.115Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-什么是注解？&quot;&gt;&lt;a href=&quot;#1-什么是注解？&quot; class=&quot;headerlink&quot; title=&quot;1.什么是注解？&quot;&gt;&lt;/a&gt;1.什么是注解？&lt;/h2&gt;&lt;p&gt;注解(Annotation)是代码里的特殊标记，这些标记可以在编译、类加载、运行时被读取，并执行相应的处理。&lt;/p&gt;
-&lt;h2 id=&quot;2-为什么要用注解？&quot;&gt;&lt;a href=&quot;#2-为什么要用注解？&quot; class=&quot;headerlink&quot; title=&quot;2.为什么要用注解？&quot;&gt;&lt;/a&gt;2.为什么要用注解？&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;在JavaSE中，注解的使用目的比较简单，比如：标记过时的功能、忽略警告等。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-什么是注解？&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#1-什么是注解？&quot;&gt;¶&lt;/a&gt;1.什么是注解？&lt;/h2&gt;
+&lt;p&gt;注解(Annotation)是代码里的特殊标记，这些标记可以在编译、类加载、运行时被读取，并执行相应的处理。&lt;/p&gt;
+&lt;h2 id=&quot;2-为什么要用注解？&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#2-为什么要用注解？&quot;&gt;¶&lt;/a&gt;2.为什么要用注解？&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;在JavaSE中，注解的使用目的比较简单，比如：标记过时的功能、忽略警告等。&lt;/p&gt;</summary>
     
     
     
