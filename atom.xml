@@ -6,7 +6,7 @@
   <link href="http://greyorange.xyz/atom.xml" rel="self"/>
   
   <link href="http://greyorange.xyz/"/>
-  <updated>2021-08-11T08:00:44.647Z</updated>
+  <updated>2021-08-11T08:27:24.074Z</updated>
   <id>http://greyorange.xyz/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://greyorange.xyz/Java%E7%AC%94%E8%AE%B0/Spring(%E6%9C%AA%E5%AE%8C%E5%BE%85%E7%BB%AD)/"/>
     <id>http://greyorange.xyz/Java%E7%AC%94%E8%AE%B0/Spring(%E6%9C%AA%E5%AE%8C%E5%BE%85%E7%BB%AD)/</id>
     <published>2021-08-11T08:00:40.000Z</published>
-    <updated>2021-08-11T08:00:44.647Z</updated>
+    <updated>2021-08-11T08:27:24.074Z</updated>
     
     
     <summary type="html">&lt;p&gt;本文是学习Spring时候做的相关笔记，有关JDBCTemplate和Spring事务还有待补充。&lt;/p&gt;</summary>
