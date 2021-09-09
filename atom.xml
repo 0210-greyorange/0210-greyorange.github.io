@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Fei&#39;s blog</title>
-  
+  <icon>https://www.gravatar.com/avatar/917dac07318697a2aacccb57820c4f5b</icon>
   
   <link href="http://greyorange.xyz/atom.xml" rel="self"/>
   
@@ -11,7 +11,7 @@
   
   <author>
     <name>灰橙</name>
-    
+    <email>1013270165@qq.com</email>
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
