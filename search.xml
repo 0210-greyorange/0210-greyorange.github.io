@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>LeetCode第一轮(更新ing)</title>
+    <url>/LeetCode/LeetCode%E7%AC%AC%E4%B8%80%E8%BD%AE(%E6%9B%B4%E6%96%B0ing)/</url>
+    <content><![CDATA[<p>记录了下自己用Java语言第一轮刷LeetCode的章节顺序，顺便会贴一些自己对每道题的思路与代码。</p>
+<span id="more"></span>
+
+
+
+<h2 id="chap1-二分查找"><a href="#chap1-二分查找" class="headerlink" title="chap1 二分查找"></a>chap1 二分查找</h2><h2 id="chap2-排序算法"><a href="#chap2-排序算法" class="headerlink" title="chap2 排序算法"></a>chap2 排序算法</h2><h2 id="chap3-滑动窗口与双指针"><a href="#chap3-滑动窗口与双指针" class="headerlink" title="chap3 滑动窗口与双指针"></a>chap3 滑动窗口与双指针</h2><h2 id="chap4-链表"><a href="#chap4-链表" class="headerlink" title="chap4 链表"></a>chap4 链表</h2><h2 id="chap5-栈"><a href="#chap5-栈" class="headerlink" title="chap5 栈"></a>chap5 栈</h2><h2 id="chap6-队列"><a href="#chap6-队列" class="headerlink" title="chap6 队列"></a>chap6 队列</h2><h2 id="chap7-优先队列"><a href="#chap7-优先队列" class="headerlink" title="chap7 优先队列"></a>chap7 优先队列</h2><h2 id="chap8-树"><a href="#chap8-树" class="headerlink" title="chap8 树"></a>chap8 树</h2><h2 id="chap9-回溯"><a href="#chap9-回溯" class="headerlink" title="chap9 回溯"></a>chap9 回溯</h2><h2 id="chap10-动态规划"><a href="#chap10-动态规划" class="headerlink" title="chap10 动态规划"></a>chap10 动态规划</h2><h2 id="chap11-贪心"><a href="#chap11-贪心" class="headerlink" title="chap11 贪心"></a>chap11 贪心</h2><h2 id="chap12-哈希表"><a href="#chap12-哈希表" class="headerlink" title="chap12 哈希表"></a>chap12 哈希表</h2>]]></content>
+      <categories>
+        <category>LeetCode</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Spring(未完待续)</title>
     <url>/Java%E7%AC%94%E8%AE%B0/Spring(%E6%9C%AA%E5%AE%8C%E5%BE%85%E7%BB%AD)/</url>
     <content><![CDATA[<p>本文是学习Spring时候做的相关笔记，有关JDBCTemplate和Spring事务还有待补充。</p>
 <span id="more"></span>
-<h2 id="1-什么是Spring？"><a class="header-anchor" href="#1-什么是Spring？">¶</a>1.什么是Spring？</h2>
-<p>Spring 是一种轻量级开发框架，旨在提高开发人员的开发效率以及系统的可维护性。Spring 官网：<a href="https://spring.io/">https://spring.io/</a>。</p>
+
+<h2 id="1-什么是Spring？"><a href="#1-什么是Spring？" class="headerlink" title="1.什么是Spring？"></a>1.什么是Spring？</h2><p>Spring 是一种轻量级开发框架，旨在提高开发人员的开发效率以及系统的可维护性。Spring 官网：<a href="https://spring.io/">https://spring.io/</a>。</p>
 <p>1）那什么又是框架？</p>
 <p>比如说要建房子，房子的梁和柱总得先搭建好，才能开始设计每个房间的作用，接着装修买家具。那么搭好梁和柱，则是框架。在完成一个项目时，框架就是帮忙搭建了一些基础工作，总不至于每个打印在屏幕上的内容都要写一遍Systom.out.println()吧。</p>
 <p>2）如何提高开发效率？（Spring 的特点）</p>
@@ -20,12 +33,12 @@
 </ul>
 <p>3）一般说的Spring框架指的都是Spring Framework，它是很多模块的集合，如下是Spring官网列出的六个特征：</p>
 <ul>
-<li>**核心技术 ：**依赖注入(DI)，AOP，事件(events)，资源，I18N，验证，数据绑定，类型转换，SpEL。</li>
-<li>**测试 ：**模拟对象，TestContext框架，Spring MVC 测试，WebTestClient。</li>
-<li>**数据访问 ：**事务，DAO支持，JDBC，ORM，编组XML。</li>
+<li><strong>核心技术 ：</strong>依赖注入(DI)，AOP，事件(events)，资源，I18N，验证，数据绑定，类型转换，SpEL。</li>
+<li><strong>测试 ：</strong>模拟对象，TestContext框架，Spring MVC 测试，WebTestClient。</li>
+<li><strong>数据访问 ：</strong>事务，DAO支持，JDBC，ORM，编组XML。</li>
 <li><strong>Web支持 :</strong> Spring MVC和Spring WebFlux Web框架。</li>
-<li>**集成 ：**远程处理，JMS，JCA，JMX，电子邮件，任务，调度，缓存。</li>
-<li>**语言 ：**Kotlin，Groovy，动态语言。</li>
+<li><strong>集成 ：</strong>远程处理，JMS，JCA，JMX，电子邮件，任务，调度，缓存。</li>
+<li><strong>语言 ：</strong>Kotlin，Groovy，动态语言。</li>
 </ul>
 <p>4）Spring的一些重要模块：</p>
 <ul>
@@ -38,8 +51,7 @@
 <li><strong>Spring Web</strong> : 为创建Web应用程序提供支持。</li>
 <li><strong>Spring Test</strong> : 提供了对 JUnit 和 TestNG 测试的支持。</li>
 </ul>
-<h2 id="2-IoC"><a class="header-anchor" href="#2-IoC">¶</a>2.IoC</h2>
-<p>1）是什么？</p>
+<h2 id="2-IoC"><a href="#2-IoC" class="headerlink" title="2.IoC"></a>2.IoC</h2><p>1）是什么？</p>
 <p>Inverse of Control（控制反转）是一种设计思想，就是<strong>把</strong>原本在程序中手动创建对象的<strong>控制权</strong>，<strong>转交</strong>给Spring框架来管理。IoC在其他语言中也有应用，并非Spring特有。</p>
 <p>而IoC容器是Spring用来实现IoC的载体，IoC容器实际上就是个Map(Key, value)，Map中存放的是各种对象。</p>
 <p>2）如何理解？</p>
@@ -55,23 +67,20 @@
 <li>降低耦合度</li>
 </ul>
 <p>5）Bean的定义和注入方式</p>
-<p><img src="https://user-gold-cdn.xitu.io/2018/5/22/16387d351767a6fd?w=720&amp;h=159&amp;f=png&amp;s=44762" alt="img"><img src="https://user-gold-cdn.xitu.io/2018/5/22/16387d35177cc21a?w=715&amp;h=693&amp;f=png&amp;s=178450" alt="img"></p>
+<p><img src="https://user-gold-cdn.xitu.io/2018/5/22/16387d351767a6fd?w=720&h=159&f=png&s=44762" alt="img"><img src="https://user-gold-cdn.xitu.io/2018/5/22/16387d35177cc21a?w=715&h=693&f=png&s=178450" alt="img"></p>
 <p>注：</p>
 <ul>
-<li>
-<p>bean作用域</p>
+<li><p>bean作用域</p>
 <ul>
 <li>在Spring里面，默认情况下，bean是单实例singleton</li>
-<li>singleton和prototype区别
-<ul>
+<li>singleton和prototype区别<ul>
 <li>singleton是单实例，prototype是多实例</li>
 <li>设置scope值是singleton的时候，在加载Spring配置文件的时候就会创建单实例对象；设置scope的prototype的时候，不是在加载Spring配置文件的时候创建对象，是在调用getBean方法时候创建多实例对象</li>
 </ul>
 </li>
 </ul>
 </li>
-<li>
-<p>bean生命周期（从对象创建到对象销毁的过程）</p>
+<li><p>bean生命周期（从对象创建到对象销毁的过程）</p>
 <ul>
 <li>通过构造器创建bean实例（无参构造）</li>
 <li>为bean的属性设置值和对其他bean引用（调用set方法）</li>
@@ -80,25 +89,20 @@
 <li>当容器关闭时候，调用bean的销毁方法（需要进行配置销毁的方法）</li>
 </ul>
 </li>
-<li>
-<p>基于注解方式实现属性注入</p>
+<li><p>基于注解方式实现属性注入</p>
 <ul>
-<li>
-<p>@Autowired：根据属性类型进行自动装配</p>
+<li><p>@Autowired：根据属性类型进行自动装配</p>
 <ul>
 <li>第一步，把service和dao对象创建，在service和dao类添加创建对象注解</li>
 <li>第二步，在service注入dao对象，在service类添加dao类型属性，在属性上面使用注解</li>
 </ul>
 </li>
-<li>
-<p>@Qualifier：根据名称进行注入</p>
+<li><p>@Qualifier：根据名称进行注入</p>
 <p>这个@Qualifier注解的使用，要和上面@Autowired一起使用</p>
 </li>
-<li>
-<p>@Resource：可以根据类型注入，也可以根据名称注入</p>
+<li><p>@Resource：可以根据类型注入，也可以根据名称注入</p>
 </li>
-<li>
-<p>@Value：注入普通类型属性</p>
+<li><p>@Value：注入普通类型属性</p>
 </li>
 </ul>
 </li>
@@ -106,8 +110,7 @@
 <p>6）Spring IoC源码分析</p>
 <p><a href="https://javadoop.com/post/spring-ioc">https://javadoop.com/post/spring-ioc</a></p>
 <p><a href="https://blog.csdn.net/fuzhongmin05/article/details/61614873/">https://blog.csdn.net/fuzhongmin05/article/details/61614873/</a></p>
-<h2 id="3-AOP"><a class="header-anchor" href="#3-AOP">¶</a>3.AOP</h2>
-<p>1）是什么？</p>
+<h2 id="3-AOP"><a href="#3-AOP" class="headerlink" title="3.AOP"></a>3.AOP</h2><p>1）是什么？</p>
 <ul>
 <li>面向切面（方面）编程</li>
 <li>通俗描述：不通过修改源代码方式，在主干功能里面添加新功能</li>
@@ -116,12 +119,10 @@
 <p>利用AOP可以对业务逻辑的各个部分进行隔离，从而使得业务逻辑各部分之间的<strong>耦合度</strong>降低，提高程序的可重用性，同时提高了开发效率。</p>
 <p>3）底层使用动态代理</p>
 <ul>
-<li>第一种：有接口，使用JDK动态代理，创建接口实现类代理对象，增强类的方法
-<ul>
+<li>第一种：有接口，使用JDK动态代理，创建接口实现类代理对象，增强类的方法<ul>
 <li>创建接口，定义方法</li>
 <li>创建接口实现类，实现方法</li>
-<li>使用Proxy类创建接口代理对象：调用newProxyInstance方法，该方法有三个参数：
-<ul>
+<li>使用Proxy类创建接口代理对象：调用newProxyInstance方法，该方法有三个参数：<ul>
 <li>ClassLoader loader，类加载器</li>
 <li>类&lt;?&gt;[] interfaces，增强方法所在的类，这个类实现的接口，支持多个接口</li>
 <li>InvocationHandler h，实现这个接口InvocationHandle，创建代理对象，写增强的部分</li>
@@ -136,11 +137,9 @@
 <ul>
 <li>连接点：类里面哪些方法可以被增强，这些方法称为连接点</li>
 <li>切入点：实际真正增强的地方，称为切入点</li>
-<li>通知（增强）
-<ul>
+<li>通知（增强）<ul>
 <li>实际增强的逻辑部分称为通知（增强）</li>
-<li>通知有多种类型
-<ul>
+<li>通知有多种类型<ul>
 <li>前置通知 @Before</li>
 <li>后置通知 @AfterReturning</li>
 <li>环绕通知 @Around</li>
@@ -155,15 +154,13 @@
 <p>5）AOP现在有两个主要的流行框架，即Spring AOP 和 String+AspectJ</p>
 <p><img src="https://img-blog.csdn.net/20160113113029764?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center" alt="img"></p>
 <ul>
-<li>区别
-<ul>
+<li>区别<ul>
 <li>织入的时期不同。<font color = blue>Spring Aop采用的动态织入，而Aspectj是静态织入。</font>静态织入：指在编译时期就织入，即：编译出来的class文件，字节码就已经被织入了。动态织入又分静动两种，静则指织入过程只在第一次调用时执行；动则指根据代码动态运行的中间状态来决定如何操作，每次调用Target的时候都执行。</li>
 <li>使用对象不同。Spring AOP的通知是基于该对象是SpringBean对象才可以，而AspectJ可以在任何Java对象上应用通知。</li>
 </ul>
 </li>
 <li>一般都使用后者</li>
-<li>切入点表达式
-<ul>
+<li>切入点表达式<ul>
 <li>作用：知道对哪个类里面的哪个方法进行增强</li>
 <li>语法结构：execution([权限修饰符] [返回类型] [类全路径] [方法名称] ([参数列表])</li>
 </ul>
@@ -171,12 +168,9 @@
 </ul>
 <p>6）Spring AOP源码分析</p>
 <p><a href="https://javadoop.com/post/spring-aop-source">https://javadoop.com/post/spring-aop-source</a></p>
-<h2 id="4-JDBCTemplate"><a class="header-anchor" href="#4-JDBCTemplate">¶</a>4.JDBCTemplate</h2>
-<h2 id="5-Spring事务"><a class="header-anchor" href="#5-Spring事务">¶</a>5.Spring事务</h2>
-<h2 id="6-总结"><a class="header-anchor" href="#6-总结">¶</a>6.总结</h2>
-<ul>
+<h2 id="4-JDBCTemplate"><a href="#4-JDBCTemplate" class="headerlink" title="4.JDBCTemplate"></a>4.JDBCTemplate</h2><h2 id="5-Spring事务"><a href="#5-Spring事务" class="headerlink" title="5.Spring事务"></a>5.Spring事务</h2><h2 id="6-总结"><a href="#6-总结" class="headerlink" title="6.总结"></a>6.总结</h2><ul>
 <li>Spring IoC解决的是对象管理和对象依赖的问题；Spring AOP解决的是非业务代码抽取的问题。</li>
-<li>Spring框架中用到的设计模式：<a href="https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&amp;mid=2247485303&amp;idx=1&amp;sn=9e4626a1e3f001f9b0d84a6fa0cff04a&amp;chksm=cea248bcf9d5c1aaf48b67cc52bac74eb29d6037848d6cf213b0e5466f2d1fda970db700ba41&amp;token=255050878&amp;lang=zh_CN#rd">《面试官:“谈谈Spring中都用到了那些设计模式?”。》</a></li>
+<li>Spring框架中用到的设计模式：<a href="https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=2247485303&idx=1&sn=9e4626a1e3f001f9b0d84a6fa0cff04a&chksm=cea248bcf9d5c1aaf48b67cc52bac74eb29d6037848d6cf213b0e5466f2d1fda970db700ba41&token=255050878&lang=zh_CN#rd">《面试官:“谈谈Spring中都用到了那些设计模式?”。》</a> </li>
 </ul>
 ]]></content>
       <categories>
@@ -184,64 +178,35 @@
       </categories>
   </entry>
   <entry>
-    <title>LeetCode第一轮(更新ing)</title>
-    <url>/LeetCode/LeetCode%E7%AC%AC%E4%B8%80%E8%BD%AE(%E6%9B%B4%E6%96%B0ing)/</url>
-    <content><![CDATA[<p>记录了下自己用Java语言第一轮刷LeetCode的章节顺序，顺便会贴一些自己对每道题的思路与代码。</p>
-<span id="more"></span>
-<h2 id="chap1-二分查找"><a class="header-anchor" href="#chap1-二分查找">¶</a>chap1 二分查找</h2>
-<h2 id="chap2-排序算法"><a class="header-anchor" href="#chap2-排序算法">¶</a>chap2 排序算法</h2>
-<h2 id="chap3-滑动窗口与双指针"><a class="header-anchor" href="#chap3-滑动窗口与双指针">¶</a>chap3 滑动窗口与双指针</h2>
-<h2 id="chap4-链表"><a class="header-anchor" href="#chap4-链表">¶</a>chap4 链表</h2>
-<h2 id="chap5-栈"><a class="header-anchor" href="#chap5-栈">¶</a>chap5 栈</h2>
-<h2 id="chap6-队列"><a class="header-anchor" href="#chap6-队列">¶</a>chap6 队列</h2>
-<h2 id="chap7-优先队列"><a class="header-anchor" href="#chap7-优先队列">¶</a>chap7 优先队列</h2>
-<h2 id="chap8-树"><a class="header-anchor" href="#chap8-树">¶</a>chap8 树</h2>
-<h2 id="chap9-回溯"><a class="header-anchor" href="#chap9-回溯">¶</a>chap9 回溯</h2>
-<h2 id="chap10-动态规划"><a class="header-anchor" href="#chap10-动态规划">¶</a>chap10 动态规划</h2>
-<h2 id="chap11-贪心"><a class="header-anchor" href="#chap11-贪心">¶</a>chap11 贪心</h2>
-<h2 id="chap12-哈希表"><a class="header-anchor" href="#chap12-哈希表">¶</a>chap12 哈希表</h2>
-]]></content>
-      <categories>
-        <category>LeetCode</category>
-      </categories>
-  </entry>
-  <entry>
     <title>注解</title>
     <url>/Java%E7%AC%94%E8%AE%B0/%E6%B3%A8%E8%A7%A3/</url>
     <content><![CDATA[<p>本文是学习注解时候做的相关笔记。</p>
 <span id="more"></span>
-<h2 id="1-什么是注解？"><a class="header-anchor" href="#1-什么是注解？">¶</a>1.什么是注解？</h2>
-<p>注解(Annotation)是代码里的特殊标记，这些标记可以在编译、类加载、运行时被读取，并执行相应的处理。</p>
-<h2 id="2-为什么要用注解？"><a class="header-anchor" href="#2-为什么要用注解？">¶</a>2.为什么要用注解？</h2>
-<ul>
-<li>
-<p>在JavaSE中，注解的使用目的比较简单，比如：标记过时的功能、忽略警告等。</p>
+
+<h2 id="1-什么是注解？"><a href="#1-什么是注解？" class="headerlink" title="1.什么是注解？"></a>1.什么是注解？</h2><p>注解(Annotation)是代码里的特殊标记，这些标记可以在编译、类加载、运行时被读取，并执行相应的处理。</p>
+<h2 id="2-为什么要用注解？"><a href="#2-为什么要用注解？" class="headerlink" title="2.为什么要用注解？"></a>2.为什么要用注解？</h2><ul>
+<li><p>在JavaSE中，注解的使用目的比较简单，比如：标记过时的功能、忽略警告等。</p>
 </li>
-<li>
-<p>在Javaweb中，传统方式我们是通过配置文件(xml文件)来告诉类是如何运行的，有了注解技术后，我们通过注解告诉类如何运行。</p>
+<li><p>在Javaweb中，传统方式我们是通过配置文件(xml文件)来告诉类是如何运行的，有了注解技术后，我们通过注解告诉类如何运行。</p>
 </li>
-<li>
-<p>未来的开发模式都是基于注解的，JPA、Spring、Hibernate、Struts都是基于注解的，注解是一种趋势，一定程度上可以说：框架 = 注解 + 反射 + 设计模式</p>
+<li><p>未来的开发模式都是基于注解的，JPA、Spring、Hibernate、Struts都是基于注解的，注解是一种趋势，一定程度上可以说：框架 = 注解 + 反射 + 设计模式</p>
 </li>
 </ul>
-<h2 id="3-怎么使用注解？"><a class="header-anchor" href="#3-怎么使用注解？">¶</a>3.怎么使用注解？</h2>
-<ul>
+<h2 id="3-怎么使用注解？"><a href="#3-怎么使用注解？" class="headerlink" title="3.怎么使用注解？"></a>3.怎么使用注解？</h2><ul>
 <li>在前面增加@符号，并把该Annotation当成一个修饰符使用，可用于修饰包、类、构造器、方法、成员变量、参数、局部变量的声明</li>
-<li>示例一：生成文档相关的注解
-<ul>
-<li>@author 标明开发该类模块的作者，多个作者之间使用,分割</li>
-<li>@version 标明该类模块的版本</li>
-<li>@see 参考转向，也就是相关主题</li>
-<li>@since 从哪个版本开始增加的</li>
-<li>@param 对方法中某参数的说明，如果没有参数就不能写</li>
-<li>@return 对方法返回值的说明，如果方法的返回值类型是void就不能写</li>
-<li>@exception 对方法可能抛出的异常进行说明 ，如果方法没有用throws显式抛出的异常就不能写</li>
-<li>其中
-<ul>
-<li>@param @return 和 @exception 这三个标记都是只用于方法的。</li>
-<li>@param的格式要求：@param 形参名 形参类型 形参说明</li>
+<li>示例一：生成文档相关的注解<ul>
+<li>@author 标明开发该类模块的作者，多个作者之间使用,分割 </li>
+<li>@version 标明该类模块的版本 </li>
+<li>@see 参考转向，也就是相关主题 </li>
+<li>@since 从哪个版本开始增加的 </li>
+<li>@param 对方法中某参数的说明，如果没有参数就不能写 </li>
+<li>@return 对方法返回值的说明，如果方法的返回值类型是void就不能写 </li>
+<li>@exception 对方法可能抛出的异常进行说明 ，如果方法没有用throws显式抛出的异常就不能写 </li>
+<li>其中 <ul>
+<li>@param @return 和 @exception 这三个标记都是只用于方法的。 </li>
+<li>@param的格式要求：@param 形参名 形参类型 形参说明 </li>
 <li>@return 的格式要求：@return 返回值类型 返回值说明</li>
-<li>@exception的格式要求：@exception 异常类型 异常说明</li>
+<li>@exception的格式要求：@exception 异常类型 异常说明 </li>
 <li>@param和@exception可以并列多个</li>
 </ul>
 </li>
@@ -249,85 +214,76 @@
 </li>
 </ul>
 <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">* <span class="doctag">@author</span> shkstart</span></span><br><span class="line"><span class="comment">* <span class="doctag">@version</span> 1.0</span></span><br><span class="line"><span class="comment">* <span class="doctag">@see</span> Math.java</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">JavadocTest</span> </span>&#123;</span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">    * 程序的主方法，程序的入口</span></span><br><span class="line"><span class="comment">    * <span class="doctag">@param</span> args String[] 命令行参数</span></span><br><span class="line"><span class="comment">    */</span></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        </span><br><span class="line">	&#125;</span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">    * 求圆面积的方法</span></span><br><span class="line"><span class="comment">    * <span class="doctag">@param</span> radius double 半径值</span></span><br><span class="line"><span class="comment">    * <span class="doctag">@return</span> double 圆的面积</span></span><br><span class="line"><span class="comment">    */</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">double</span> <span class="title">getArea</span><span class="params">(<span class="keyword">double</span> radius)</span></span>&#123;</span><br><span class="line">    	<span class="keyword">return</span> Math.PI * radius * radius;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
 <ul>
-<li>示例二：在编译时进行格式检查
-<ul>
-<li>@Override: 限定重写父类方法, 该注解只能用于方法</li>
-<li>@Deprecated: 用于表示所修饰的元素(类, 方法等)已过时。通常是因为 所修饰的结构危险或存在更好的选择</li>
+<li>示例二：在编译时进行格式检查<ul>
+<li>@Override: 限定重写父类方法, 该注解只能用于方法 </li>
+<li>@Deprecated: 用于表示所修饰的元素(类, 方法等)已过时。通常是因为 所修饰的结构危险或存在更好的选择 </li>
 <li>@SuppressWarnings: 抑制编译器警告</li>
 </ul>
 </li>
 </ul>
 <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">AnnotationTest</span></span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="meta">@SuppressWarnings(&quot;unused&quot;)</span></span><br><span class="line">        <span class="keyword">int</span> a = <span class="number">10</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="meta">@Deprecated</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">print</span><span class="params">()</span></span>&#123;</span><br><span class="line">    	System.out.println(<span class="string">&quot;过时的方法&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">toString</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    	<span class="keyword">return</span> <span class="string">&quot;重写的toString方法()&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
 <ul>
-<li>示例三：代替配置文件功能
-<ul>
+<li>示例三：代替配置文件功能<ul>
 <li>@WebServlet</li>
 <li>@Transactional</li>
 </ul>
 </li>
 </ul>
-<h2 id="4-自定义注解"><a class="header-anchor" href="#4-自定义注解">¶</a>4.自定义注解</h2>
-<ul>
+<h2 id="4-自定义注解"><a href="#4-自定义注解" class="headerlink" title="4.自定义注解"></a>4.自定义注解</h2><ul>
 <li>一般自定义注解都是RUNTIME级别的，因为大多数情况是根据运行时环境去做一些处理</li>
 <li>在开发的过程中，自定义注解需要配合反射来使用，因为反射是Java获取运行时信息的重要手段</li>
-<li>定义新的 Annotation 类型使用 @interface 关键字</li>
-<li>自定义注解自动继承了java.lang.annotation.Annotation接口</li>
-<li>Annotation 的成员变量在 Annotation 定义中以无参数方法的形式来声明。其方法名和返回值定义了该成员的名字和类型。我们称为配置参数。类型只能是八种基本数据类型、String类型、Class类型、enum类型、Annotation类型、 以上所有类型的数组。</li>
-<li>可以在定义 Annotation 的成员变量时为其指定初始值, 指定成员变量的初始 值可使用 default 关键字</li>
+<li>定义新的 Annotation 类型使用 @interface 关键字 </li>
+<li>自定义注解自动继承了java.lang.annotation.Annotation接口 </li>
+<li>Annotation 的成员变量在 Annotation 定义中以无参数方法的形式来声明。其方法名和返回值定义了该成员的名字和类型。我们称为配置参数。类型只能是八种基本数据类型、String类型、Class类型、enum类型、Annotation类型、 以上所有类型的数组。 </li>
+<li>可以在定义 Annotation 的成员变量时为其指定初始值, 指定成员变量的初始 值可使用 default 关键字 </li>
 <li>如果只有一个参数成员，建议使用参数名为value</li>
 <li>如果定义的注解含有配置参数，那么使用时必须指定参数值，除非它有默认 值。格式是“参数名 = 参数值” ，如果只有一个参数成员，且名称为value， 可以省略“value=”</li>
-<li>没有成员定义的 Annotation 称为标记; 包含成员变量的 Annotation 称为元数据 Annotation</li>
+<li>没有成员定义的 Annotation 称为标记; 包含成员变量的 Annotation 称为元数据 Annotation </li>
 <li>注意：自定义注解必须配上注解的信息处理流程才有意义。</li>
 </ul>
 <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="meta">@MyAnnotation(value=&quot;灰橙&quot;)</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">MyAnnotationTest</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        Class clazz = MyAnnotationTest.class;</span><br><span class="line">        Annotation a = clazz.getAnnotation(MyAnnotation.class);</span><br><span class="line">        MyAnnotation m = (MyAnnotation) a;</span><br><span class="line">        String info = m.value();</span><br><span class="line">        System.out.println(info);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">@Retention(RetentionPolicy.RUNTIME)</span></span><br><span class="line"><span class="meta">@Target(ElementType.TYPE)</span></span><br><span class="line"><span class="meta">@interface</span> MyAnnotation&#123;</span><br><span class="line">	<span class="function">String <span class="title">value</span><span class="params">()</span> <span class="keyword">default</span> &quot;greyorange&quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="5-JDK中的元注解"><a class="header-anchor" href="#5-JDK中的元注解">¶</a>5.JDK中的元注解</h2>
-<ul>
-<li>
-<p>自定义的注解是可以带成员变量的，定义带成员变量的注解叫做元数据Annotation</p>
+
+
+
+<h2 id="5-JDK中的元注解"><a href="#5-JDK中的元注解" class="headerlink" title="5.JDK中的元注解"></a>5.JDK中的元注解</h2><ul>
+<li><p>自定义的注解是可以带成员变量的，定义带成员变量的注解叫做元数据Annotation</p>
 </li>
-<li>
-<p>JDK 的元 Annotation 用于修饰其他 Annotation 定义</p>
+<li><p>JDK 的元 Annotation 用于修饰其他 Annotation 定义</p>
 </li>
-<li>
-<p>JDK5.0提供了4个标准的元注解（meta-Annotation）类型</p>
+<li><p>JDK5.0提供了4个标准的元注解（meta-Annotation）类型</p>
 <ul>
-<li>
-<p>@Retention：只能用于修饰一个 Annotation 定义, 用于指定该Annotation 的生命周期, @Rentention 包含一个 RetentionPolicy 类型的成员变量, 使用 @Rentention 时必须为该 value 成员变量指定值</p>
+<li><p>@Retention：只能用于修饰一个 Annotation 定义, 用于指定该Annotation 的生命周期, @Rentention 包含一个 RetentionPolicy 类型的成员变量, 使用 @Rentention 时必须为该 value 成员变量指定值</p>
 <ul>
-<li>RetentionPolicy.SOURCE：在源文件中有效（即源文件保留），编译器直接丢弃这种策略的注释</li>
-<li>RetentionPolicy.CLASS：在class文件中有效（即class保留）， 当运行 Java 程序时, JVM 不会保留注解。 这是默认值</li>
+<li>RetentionPolicy.SOURCE：在源文件中有效（即源文件保留），编译器直接丢弃这种策略的注释 </li>
+<li>RetentionPolicy.CLASS：在class文件中有效（即class保留）， 当运行 Java 程序时, JVM 不会保留注解。 这是默认值 </li>
 <li>RetentionPolicy.RUNTIME：在运行时有效（即运行时保留），当运行 Java 程序时, JVM 会保留注释。程序可以通过反射获取该注释。</li>
-<li><img src="http://img.greyorange.top/typora_img/image-20210808201430033.png?imageMogr2/blur/1x0/quality/75%7Cwatermark/2/text/QEdyZXlPcmFuZ2U=/font/Y29taWMgc2FucyBtcw==/fontsize/720/fill/I0ZGRkZGRg==/dissolve/90/gravity/SouthEast/dx/10/dy/10" alt=""></li>
+<li><img src="http://img.greyorange.top/typora_img/image-20210808201430033.png?imageMogr2/blur/1x0/quality/75%7Cwatermark/2/text/QEdyZXlPcmFuZ2U=/font/Y29taWMgc2FucyBtcw==/fontsize/720/fill/I0ZGRkZGRg==/dissolve/90/gravity/SouthEast/dx/10/dy/10"></li>
 </ul>
 </li>
-<li>
-<p>Target：用于修饰 Annotation 定义, 用于指定被修饰的 Annotation 能用于修饰哪些程序元素。 @Target 也包含一个名为 value 的成员变量。</p>
-<p><img src="http://img.greyorange.top/typora_img/image-20210808201521993.png?imageMogr2/blur/1x0/quality/75%7Cwatermark/2/text/QEdyZXlPcmFuZ2U=/font/Y29taWMgc2FucyBtcw==/fontsize/720/fill/I0ZGRkZGRg==/dissolve/90/gravity/SouthEast/dx/10/dy/10" alt=""></p>
+<li><p>Target：用于修饰 Annotation 定义, 用于指定被修饰的 Annotation 能用于修饰哪些程序元素。 @Target 也包含一个名为 value 的成员变量。</p>
+<p><img src="http://img.greyorange.top/typora_img/image-20210808201521993.png?imageMogr2/blur/1x0/quality/75%7Cwatermark/2/text/QEdyZXlPcmFuZ2U=/font/Y29taWMgc2FucyBtcw==/fontsize/720/fill/I0ZGRkZGRg==/dissolve/90/gravity/SouthEast/dx/10/dy/10"></p>
 </li>
-<li>
-<p>Documented：用于指定被该元 Annotation 修饰的 Annotation 类将被 javadoc 工具提取成文档。默认情况下，javadoc是不包括注解的。另外，定义为Documented的注解必须设置Retention值为RUNTIME。</p>
+<li><p>Documented：用于指定被该元 Annotation 修饰的 Annotation 类将被 javadoc 工具提取成文档。默认情况下，javadoc是不包括注解的。另外，定义为Documented的注解必须设置Retention值为RUNTIME。</p>
 </li>
-<li>
-<p>Inherited：被它修饰的 Annotation 将具有继承性。如果某个类使用了被 @Inherited 修饰的 Annotation, 则其子类将自动具有该注解。实际应用中，使用较少。</p>
+<li><p>Inherited：被它修饰的 Annotation 将具有继承性。如果某个类使用了被 @Inherited 修饰的 Annotation, 则其子类将自动具有该注解。实际应用中，使用较少。</p>
 </li>
 </ul>
 </li>
 </ul>
-<h2 id="6-JDK8中注解的新特性"><a class="header-anchor" href="#6-JDK8中注解的新特性">¶</a>6.JDK8中注解的新特性</h2>
-<ul>
+<h2 id="6-JDK8中注解的新特性"><a href="#6-JDK8中注解的新特性" class="headerlink" title="6.JDK8中注解的新特性"></a>6.JDK8中注解的新特性</h2><ul>
 <li>可重复的注解@Repeatable</li>
-<li>可用于类型的注解
-<ul>
-<li>JDK1.8之后，关于元注解@Target的参数类型ElementType枚举值多了两个： TYPE_PARAMETER,TYPE_USE。</li>
-<li>在Java 8之前，注解只能是在声明的地方所使用，Java8开始，注解可以应用 在任何地方。</li>
+<li>可用于类型的注解<ul>
+<li>JDK1.8之后，关于元注解@Target的参数类型ElementType枚举值多了两个： TYPE_PARAMETER,TYPE_USE。 </li>
+<li>在Java 8之前，注解只能是在声明的地方所使用，Java8开始，注解可以应用 在任何地方。 </li>
 <li>ElementType.TYPE_PARAMETER 表示该注解能写在类型变量的声明语 句中（如：泛型声明）。</li>
 <li>ElementType.TYPE_USE 表示该注解能写在使用类型的任何语句中。</li>
 </ul>
 </li>
 </ul>
-<h2 id="7-总结"><a class="header-anchor" href="#7-总结">¶</a>7.总结</h2>
-<p>1）注解两个作用：</p>
+<h2 id="7-总结"><a href="#7-总结" class="headerlink" title="7.总结"></a>7.总结</h2><p>1）注解两个作用：</p>
 <ul>
 <li>让编译器检查代码</li>
 <li>将数据注入到方法、成员变量、类上</li>
